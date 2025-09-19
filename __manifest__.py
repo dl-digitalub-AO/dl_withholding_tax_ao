@@ -1,15 +1,19 @@
 {
-    'name': 'Retenção na Fonte Angola',
+    'name': 'Withholding Tax Angola',
     'version': '15.0.1.0.0',
-    'summary': 'Gestão de Retenção na Fonte (Angola)',
+    'summary': 'Withholding Tax Management (Angola)',
     'description': """
-Módulo para suportar Retenção na Fonte em Angola.
-- Configuração de retenções
-- Aplicação em faturas
-- Impressão em faturas e recibos
+Module to support Withholding Tax in Angola.
+
+Features:
+- Setting up withholding tax rates
+- Applying withholding tax on invoice lines
+- Automatic calculation of retention and net payable
+- Display on invoices, receipts and SAFT export (legal requirement in Angola)
     """,
     'author': 'DIGITALUB ANGOLA',
-    'website': 'https://digitalub.ao',
+    'website': 'https://www.digitalub.ao',
+    'license': 'AGPL-3',
     'category': 'Accounting',
     'depends': ['account', 'opc_certification_ao'],
     'data': [
@@ -26,4 +30,8 @@ Módulo para suportar Retenção na Fonte em Angola.
     ],
     'installable': True,
     'application': True,
+    # Odoo Apps Store info
+    'price': 87.0,
+    'currency': 'USD',
+    'images': ['static/description/banner.png'],
 }

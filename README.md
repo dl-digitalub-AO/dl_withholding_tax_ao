@@ -1,28 +1,51 @@
-# Retenção na Fonte Angola (dl_withholding_tax_ao)
+🇦🇴 DL Withholding Tax Angola (dl_withholding_tax_ao)
 
-Este módulo adiciona a funcionalidade de Retenção na Fonte para Angola ao Odoo 15.
+💡 This module adds Withholding Tax functionality to Odoo 15, fully aligned with the Angolan tax requirements.
 
-## Funcionalidades
+✨ Features
 
-*   Configuração de diferentes tipos de retenção na fonte.
-*   Aplicação de retenção nas linhas da fatura.
-*   Cálculo automático do valor da retenção e do líquido a pagar.
-*   Exibição dos valores de retenção no formulário da fatura e nos relatórios em PDF.
+Configure different types of withholding tax.
 
-## Instalação
+Apply withholding tax directly on invoice lines.
 
-1.  Copie a pasta `dl_withholding_tax_ao` para a sua pasta de addons do Odoo.
-2.  Reinicie o serviço do Odoo.
-3.  Ative o modo de programador.
-4.  Vá a "Aplicações", clique em "Atualizar Lista de Aplicações".
-5.  Procure por "Retenção na Fonte Angola" e clique em "Instalar".
+Automatic calculation of the withholding amount and net payable.
 
-## Utilização
+Display of withholding values on the invoice form and PDF reports.
 
-1.  **Configurar as taxas de retenção:**
-    *   Vá a `Contabilidade > Configuração > Retenção na Fonte`.
-    *   Crie ou edite as taxas de retenção conforme necessário. O módulo já vem com algumas taxas pré-configuradas.
+SAFT Angola integration: the module extends the SAFT file by adding the withholding_tax field, complying with legal requirements from AGT (General Tax Administration of Angola).
 
-2.  **Aplicar retenção numa fatura:**
-    *   Ao criar uma fatura de fornecedor, numa das linhas da fatura, no campo "Retenção", selecione a taxa de retenção a aplicar.
-    *   O valor da retenção e o líquido a pagar serão calculados e exibidos automaticamente no rodapé da fatura após guardar.
+⚙️ Installation
+
+Copy the dl_withholding_tax_ao folder into your Odoo addons directory.
+
+Restart the Odoo service.
+
+Activate the Developer Mode.
+
+Go to Apps → click Update Apps List.
+
+Search for "Withholding Tax Angola" and click Install.
+
+🧑‍💻 Usage
+➤ Configure withholding tax rates
+
+Go to Accounting > Configuration > Withholding Tax.
+
+Create or edit the tax rates as required.
+(Some predefined rates are already included in the module).
+
+➤ Apply withholding on an invoice
+
+When creating a vendor bill, select the withholding tax rate in the "Withholding" field on the invoice line.
+
+The system will automatically calculate the withholding amount and update the net payable at the bottom of the invoice.
+
+📊 Practical Example
+
+Invoice amount: 100,000 Kz
+
+Withholding Tax: 6.5%
+
+Withholding amount: 6,500 Kz
+
+Net payable: 93,500 Kz
