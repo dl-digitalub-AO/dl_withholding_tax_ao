@@ -15,7 +15,7 @@ Features:
     'website': 'https://www.digitalub.ao',
     'license': 'AGPL-3',
     'category': 'Accounting',
-    'depends': ['account', 'opc_certification_ao'],
+    'depends': ['account'],
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
