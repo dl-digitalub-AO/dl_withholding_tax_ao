@@ -1,6 +1,6 @@
 🇦🇴 DL Withholding Tax Angola (dl_withholding_tax_ao)
 
-💡 This module adds Withholding Tax functionality to Odoo 15, fully aligned with the Angolan tax requirements.
+💡 This module adds Withholding Tax functionality to Odoo 17, fully aligned with the Angolan tax requirements.
 
 ✨ Features
 
