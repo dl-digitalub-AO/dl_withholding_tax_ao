@@ -1,6 +1,6 @@
 {
     'name': 'Withholding Tax Angola',
-    'version': '17.0.1.0.0',
+    'version': '16.0.1.0.0',
     'summary': 'Withholding Tax Management (Angola)',
     'description': """
 Module to support Withholding Tax in Angola.
