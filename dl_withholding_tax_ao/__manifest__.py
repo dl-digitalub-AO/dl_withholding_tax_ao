@@ -31,7 +31,7 @@ Features:
     'installable': True,
     'application': True,
     # Odoo Apps Store info
-    'price': 87.0,
+    'price': 91.0,
     'currency': 'USD',
     'images': ['static/description/banner.png'],
 }
